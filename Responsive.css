@@ -1,0 +1,246 @@
+@media only screen and (max-width: 1220px) {
+    .homepic img{
+      width: 80%;
+    }
+    .homeintro h1{
+      font-size: 35px;
+    }
+    
+  
+  }
+  
+  @media only screen and (max-width: 992px) {
+   
+    .header{
+      justify-content: space-between;
+    }
+    .navbar{
+      display: none;
+    }
+    .logo{
+      margin-left: 4rem;
+      text-align: left;
+    }
+
+    .menu{
+      margin-right: 4rem;
+      display: block;
+    }
+    .homeintro{
+      text-align: left;
+      padding: 4rem 0px;;
+    }
+    .homeintro h4{
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--maincolor);
+      position: relative;
+      top: 10px;
+  
+  }
+    .homeintro h1{
+      font-size: 35px;
+    }
+    .homeintro p{
+      text-align: left;
+    }
+    .homepic img{
+      width: 100%;
+    }
+    .about{
+      display: block;
+    }
+    .aboutpic{
+      width: 100%;
+    }
+    .aboutcontent{
+      margin: auto;
+      width: 80%;
+    }
+    .aboutcontent h1{
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .aboutcontent p{
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+    .but{
+      width: 100%;
+      text-align: center;
+    }
+    .aboutcontent .btn{
+      text-align: center;
+    }
+    .bar{
+      width: 100%;
+    }
+    .serv h3{
+      font-size: 1.2rem;
+    }
+    .formgroup{
+      padding: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    
+    .homeintro h1{
+      font-size: 2rem;
+    }
+      .homepic img{
+        width: 100%;
+      }
+      .servicescont{
+        grid-template-columns: repeat(2 ,1fr);
+    }
+    .formgroup textarea{
+      width: 85%;
+    }
+    .serv h3{
+      font-size: 1.5rem;
+
+    }
+    }
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .aboutpic{
+      display: block;
+    }
+    .aboutcontent{
+      width: 80%;
+    }
+    .imgs{
+      width: 100%;
+      display: block;
+    }
+    .img3{
+      top: 0rem;
+      left: 0rem;
+      display: block;
+      width: 100%;
+  }
+    .homeintro h4{
+      font-size: 1.5rem;
+      margin: 12px 0px;
+      
+    }
+    .homeintro h1{
+      font-size: 3rem;
+      margin: 12px 0px;
+      
+    }
+    .home{
+      margin-bottom: 12px;
+      padding-bottom: 0px;
+      display: block;
+    }
+    .homeintro{
+      width: 100%;
+    }
+    .homepic img{
+      display: none;
+    }
+    .servicescont{
+      grid-template-columns: repeat(1 ,1fr);
+    }
+    .serv{
+
+      width:70% ;
+    }
+    .serv h3{
+      font-size: 2rem;
+
+    }
+    .formgroup{
+      margin-top: 2rem;
+    }
+    .formgroup input{
+      width: 80%;
+    }
+    .formgroup textarea{
+      width: 80%;
+    }
+    .formgroup .btn{
+      width: 20%;
+    }
+    .footercon a{
+      padding: 0.5rem 1rem;
+  }
+  }
+  
+
+
+
+@media only screen and (max-width: 600px) {
+   
+    .logo{
+      margin-left: 1rem;
+      text-align: left;
+    }
+
+    .menu{
+      margin-right: 1rem;
+      display: block;
+    }
+    .homeintro h1{
+      font-size: 2.1rem;
+    }
+    .homeintro h4{
+      font-size: 0.8rem;
+    }
+    .aboutpic{
+      margin-left: 0px;
+    }
+    .aboutcontent{
+      width: 100%;
+    }
+    .services{
+      width: 90vw;
+  
+  }
+    .serv{
+      width: 80%;
+    }
+    .serv h3{
+      font-size: 1.5rem;
+    }
+    .formgroup{
+      margin-top: 2rem;
+    }
+    .formgroup .btn{
+      width: 30%;
+    }
+    .footercon a{
+      padding: 0.5rem 1rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 406px) {
+  
+    .homeintro h1{
+      font-size: 2rem;
+    }
+    .formgroup{
+      width: 100%;
+      margin: 0px;
+    }
+    .formgroup input{
+      width: 100%;
+    }
+    .formgroup textarea{
+      width: 100%;
+    }
+    .serv{
+      width: 90%;
+    }
+  }
+
+
+

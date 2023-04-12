@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor : rgb(8, 8, 34);
+    --bar1 : rgb(8, 8, 34);
+    --bar2 : rgb(15, 15, 59);
+    --bar3 : rgb(26, 26, 94);
+    --bar4 : rgb(34, 34, 128);
+    --bar5 : rgb(31, 31, 128);
+    --seocndcolor: white;
+    --hover: rgb(10, 10, 71);
+    --orange : orange;
+}
+/* navbar  */
+.header{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.logo a{
+    color: var(--maincolor);
+
+}
+.listitems a.active{
+    color: var(--orange);
+}
+.navbar{
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    font-size: 2rem;
+    display: none;
+    color: var(--maincolor);
+}
+.menu a{
+    color: var(--maincolor);
+}
+.close{
+    color: var(--maincolor);
+    font-size: 2rem;
+    display: none;
+}
+.close a{
+    
+    color: var(--maincolor);
+}
+
+.listitems{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    gap: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+.listitems li a{
+    color: var(--maincolor);
+}
+.listitems li a:hover{
+    color: var(--orange);
+}
+/* Home Section  */
+.home{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+}
+.homeintro{
+    width: 50%;
+    padding: 4rem 25px;
+    
+}
+.homeintro h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--maincolor);
+    position: relative;
+    top: 10px;
+
+}
+.homeintro h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--orange);
+
+}
+.homeintro p{
+    font-size: 14px;
+    color: var(--maincolor);
+
+}
+.sociallinks{
+    display: flex;
+    gap: 36px;
+    padding: 16px 7px;
+}
+.sociallinks a{
+    margin-top: 10px;
+    font-size: 25px;
+    color: var(--maincolor);
+}
+.sociallinks a:hover {
+    color: var(--orange);
+}
+.btn{
+    margin-left: 5px;
+    padding: 8px 16px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 450;
+    color: var(--seocndcolor);
+    background-color: var(--maincolor);
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: var(--seocndcolor);
+    color: var(--orange);
+    outline: 2px solid var(--maincolor);
+}
+
+.homepic{
+    width: 50%;
+}
+.homepic img{ 
+    padding: 25px;
+    margin-left: 50px;
+    width: 70%;
+}
+.line{
+    width: 80vw;
+    height: 1px;
+    background-color: var(--orange);
+    margin: 28px auto;
+}
+
+/* about section  */
+.about{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2px;
+}
+.aboutpic{
+    width: 50%;
+    margin: 5rem 25px;
+    display: flex;
+
+}
+.imgs{
+    width: 50%;
+}
+.img3{
+    width: 50%;
+    position: relative;
+    top: 10rem;
+    left: 1rem;
+}
+.aboutpic img{
+    width: 100%;
+}
+
+.aboutcontent{
+    width: 50%;
+    margin-top: 5rem;
+    margin-left: 25px;
+}
+.aboutcontent h1{
+    font-size: 2rem;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: var(--maincolor);
+
+}
+.aboutcontent p{
+    width: 90%;
+    margin-top: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--maincolor);
+
+}
+.org{
+    color: var(--orange);
+}
+.barmain{
+    width: 90%;
+    background-color: rgb(187, 189, 187);
+}
+.pbg{
+    padding: 0.2px;
+}
+.progressbar1{
+    width: 90%;
+    background-color: var(--bar1);
+}
+.progressbar2{
+    
+    width: 80%;
+    background-color: var(--bar2);
+}
+.progressbar3{
+    background-color: var(--bar3);
+    width: 20%;
+}
+.progressbar4{
+    background-color: var(--bar4)	;
+    width: 95%;
+}
+.progressbar5{
+    background-color: var(--bar5)	;
+    width: 80%;
+}
+.Web, .SEO ,.React , .graphic , .video{
+    color: var(--white);
+    font-weight: 400;
+    margin: 1rem 1px;
+}
+.Web h2, .SEO h2 ,.React h2, .graphic h2, .video h2{
+    color: var(--orange);
+    font-weight: 600;
+    margin: 0.5rem 0px;
+}
+
+
+
+.skills {
+  text-align: left; 
+  padding-top: 2px; 
+  padding-bottom: 2px;
+  color: white; 
+}
+
+
+/* services section   */
+.services{
+    width: 80vw;
+    margin: auto;
+
+}
+.servicescont{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+.services h1{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--maincolor);
+}
+.serv{
+    width: 90%;
+    overflow: hidden;
+    margin:2rem auto;
+}  
+.serv h3{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--maincolor);
+    text-align: center;
+}
+.image img{
+
+    border-radius: 2rem;
+}
+
+
+.serv img:hover{
+    transform: scale(1.008);
+    cursor: pointer;
+}
+
+/* Portfolio section */
+.portfolio{
+    margin: 25px auto;
+    width: 80vw;
+}
+.portfolio h1{
+    font-size: 2rem;
+    text-align: center;
+    margin: 12px auto;
+    color: var(--maincolor);
+    text-transform: uppercase;
+}
+.portfolio p{
+    text-align: center;
+}
+.contact{
+    width: 80vw;
+    margin: auto;
+}
+.contact h1{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--maincolor);
+    text-transform: uppercase;
+}
+.formgroup{
+    padding: 2rem;
+    width: 80vw;
+    text-align: center;
+}
+.formgroup input{
+    width: 40%;
+    padding: 12px;
+    margin: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid var(--maincolor);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background-color: rgb(253, 243, 243);
+    
+}
+.formgroup textarea{
+    width: 84%;
+    background-color: rgb(253, 243, 243);
+    font-size: 0.9rem;
+    outline: none;
+    border: 2px solid var(--maincolor);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0.5rem 1rem;
+    resize: none;
+}
+.formgroup .btn{
+    border-radius: 11px;
+    background-color: var(--maincolor);
+    outline: none;
+    width: 15%;
+}
+.formgroup .btn:hover{
+    border-radius: 11px;
+    background-color: var(--white);
+    outline: none;
+}
+
+/* footer  */
+.footer{
+    background-color: var(--maincolor);
+    color: white;
+}
+.footercon{
+    
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footercon p{
+    font-size: 16px;
+    margin-top: 12px;
+}
+.footercon a{
+    font-size: 1rem;
+    color: white;
+    background-color: var(--orange);
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+}
